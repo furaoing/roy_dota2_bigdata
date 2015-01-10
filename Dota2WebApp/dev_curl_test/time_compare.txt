@@ -1,3 +1,0 @@
-With_header: 6s
-without_header:36s
-html:6s
