@@ -1,5 +1,5 @@
 # Dota2_BigData
-Python App for Dota2 Big Data Analysis
+Python App for Dota2 Big Data Analysis. Software Environment: python 2.7 - python(x,y)2.7.6.1 distribution, Mysql 5.0+, libcurl 
 
 The goal of this project is to design a python application for Dota2 BigData analysis purpose.
 
