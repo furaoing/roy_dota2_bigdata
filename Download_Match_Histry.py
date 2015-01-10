@@ -32,7 +32,7 @@ def curl(url):
         return False
 
 def update_db(match_id, match_seq_num, start_time, radiant_win, duration, lobby_type, cluster, game_mode, hero_ps):
-    db = MySQLdb.connect("localhost","root","mysqlphotoshare","ap_dataset_dec_2014")
+    db = MySQLdb.connect("localhost","root","XXXXXXXXXX","ap_dataset_dec_2014")
     cursor=db.cursor()
     # Prepare SQL query to INSERT a record into the database.
     sql = "INSERT INTO ap_1_dec_2014 (match_id,match_seq_num,start_time,hero_ps_1,hero_ps_2,hero_ps_3,hero_ps_4,hero_ps_5,hero_ps_6,hero_ps_7,hero_ps_8,hero_ps_9,hero_ps_10,radiant_win,duration,cluster,lobby_type,game_mode) VALUES ("\
