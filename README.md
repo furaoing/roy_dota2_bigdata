@@ -5,6 +5,8 @@ The goal of this project is to design a python application for Dota2 BigData ana
 
 The project is split into two parts, data mining and data analysis.
 
+Currently, I have provided my source code for downloading match history data into a mysql database.
+
 Data source: Steam Database
 
 WebApi Used:
