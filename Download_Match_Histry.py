@@ -57,7 +57,6 @@ def Match_Filter(human_players, game_mode, duration, lobby_type):
         return True
     else:
         return False
-#N
 
 Init_match_seq_number=raw_input('Enter the init match_seq_number:')
 
